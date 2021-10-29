@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto/Roboto-Regular-webfont.woff") format("woff");
+    font-display: swap;
+}
+
+#footer {
+    background: url(../img/bg-motif.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    margin-top: 50px;
+}
+
+#main{
+    width: 80%;
+    margin: 0 auto;
+    /*margin: 10px 50px 10px*/
+}
+h1{
+    text-align: center;
+    color: tomato;
+    font-size: 32px;
+    margin: left;
+    font-family: Roboto;
+}
+
+nav ul {
+    width: 70%;
+    margin: 0 auto;
+    background-color: silver;
+    height: 50px;
+}
+
+nav ul li {
+    float: left;
+}
